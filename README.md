@@ -8,10 +8,21 @@ If you find our code useful, please cite
 
 ```
 @inproceedings{chi-etal-2022-conditional,
-  title={Conditional supervised contrastive learning for fair text classification},
-  author={Chi, Jianfeng and Shand, William and Yu, Yaodong and Chang, Kai-Wei and Zhao, Han and Tian, Yuan},
-  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2022},
-  year={2022}
+    title = "Conditional Supervised Contrastive Learning for Fair Text Classification",
+    author = "Chi, Jianfeng  and
+      Shand, William  and
+      Yu, Yaodong  and
+      Chang, Kai-Wei  and
+      Zhao, Han  and
+      Tian, Yuan",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.199",
+    pages = "2736--2756",
+    abstract = "Contrastive representation learning has gained much attention due to its superior performance in learning representations from both image and sequential data. However, the learned representations could potentially lead to performance disparities in downstream tasks, such as increased silencing of underrepresented groups in toxicity comment classification. In light of this challenge, in this work, we study learning fair representations that satisfy a notion of fairness known as equalized odds for text classification via contrastive learning. Specifically, we first theoretically analyze the connections between learning representations with a fairness constraint and conditional supervised contrastive objectives, and then propose to use conditional supervised contrastive objectives to learn fair representations for text classification. We conduct experiments on two text datasets to demonstrate the effectiveness of our approaches in balancing the trade-offs between task performance and bias mitigation among existing baselines for text classification. Furthermore, we also show that the proposed methods are stable in different hyperparameter settings.",
 }
 ```
 
